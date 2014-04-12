@@ -8,7 +8,11 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (UrlEncode)
-
+/**
+ *  <#Description#>
+ *
+ *  @return <#return value description#>
+ */
 - (NSString *)urlEncode;
 - (NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding;
 -(NSString *)encodeUrl;

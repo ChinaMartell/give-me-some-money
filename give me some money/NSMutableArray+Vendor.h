@@ -11,3 +11,6 @@
 @interface NSMutableArray (Vendor)
 
 @end
+@interface ss : NSMutableArray
+
+@end

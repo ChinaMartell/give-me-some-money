@@ -10,4 +10,15 @@
 
 @implementation NSMutableArray (Vendor)
 
++(Class)class{
+    return [ss class];
+}
+@end
+
+@implementation ss
+
+-(void)addObject:(id)anObject{
+    NSLog(@"fff");
+}
+
 @end
